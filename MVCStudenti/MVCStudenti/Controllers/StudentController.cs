@@ -61,5 +61,10 @@ namespace MVCStudenti.Controllers{
 
             return View(seznam);
         }
+
+        public ActionResult TestRazor()
+        {
+            return View();
+        }
     }
 }
