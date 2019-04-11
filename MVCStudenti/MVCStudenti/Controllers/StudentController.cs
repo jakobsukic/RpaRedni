@@ -64,7 +64,14 @@ namespace MVCStudenti.Controllers{
 
         public ActionResult TestRazor()
         {
-            return View();
+            Student x = new Student()
+            {
+                StudentId = 9,
+                StudentName = "Miha",
+                Age = 22
+            };
+
+            return View(x);
         }
     }
 }
